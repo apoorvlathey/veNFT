@@ -1,0 +1,19 @@
+# General Node
+node_modules
+.env
+
+# VSCode Solidity Plugin
+bin
+
+# Hardhat
+abi
+artifacts
+cache
+typechain
+
+# Graph protocol
+generated
+build
+
+# tenderly
+tenderly.yaml

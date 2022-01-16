@@ -1,0 +1,36 @@
+{
+  "name": "ve-nft",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:logs": "hardhat test --logs",
+    "deploy:default": "hardhat deploy",
+    "deploy:polygon": "hardhat deploy --network polygon",
+    "etherscan-verify:polygon": "hardhat --network polygon etherscan-verify"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^7.0.1",
+    "@typechain/hardhat": "^2.1.1",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.4.1",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-deploy": "^0.8.9",
+    "hardhat-deploy-ethers": "^0.3.0-beta.10",
+    "hardhat-tracer": "^1.0.0-alpha.6",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18",
+    "ts-node": "^10.0.0",
+    "typechain": "^5.1.1"
+  }
+}
